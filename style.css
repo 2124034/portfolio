@@ -1,0 +1,283 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+body{
+    background-color: #D8B6C6;
+}
+
+.page-header{
+    height: 150vh;
+    width: auto;
+    margin: auto;
+}
+
+.top-image-wrap{
+    position: relative;
+    width: 45%;
+    margin: auto;
+}
+
+.top-image{
+    display: block;
+    position: relative;
+    width :auto;
+    height: auto;
+    margin: auto;
+    margin-top: -5%;
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    top: 70%;
+    color: #D8B6C6;
+    font-size:4vh;
+}
+
+#gloval-nav{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    margin: 1% auto;
+}
+
+#gloval-nav.fixed{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    margin: 0;
+    justify-content: space-between;
+    z-index: 512;
+    top: 0;
+    left: 25%;
+}
+
+.menu-me{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width:20%;
+    margin: auto;
+}
+.menu-works{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width:60%;
+    margin: auto;
+}
+.menu-item{
+    width: 3vw;
+    height: 3vw;
+    padding-top: 3vw;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.menu-item:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    
+}
+
+/* メニュー */
+#menu-top{
+    background-image: url(images/circle.svg);
+    background-size:contain;
+}
+
+#menu-profile{
+    background-image: url(images/icon.svg);
+    background-size:contain;
+}
+
+#menu-works-top{
+    background-image: url(images/circle.svg);
+    background-size:contain;
+}
+
+#menu-works1{
+    background-image: url(images/works1.png);
+    background-size:contain;
+}
+#menu-works2{
+    background-image: url(images/works2.png);
+    background-size:contain;
+}
+#menu-works3{
+    background-image: url(images/works3.png);
+    background-size:contain;
+}
+#menu-works4{
+    background-color: #8CAA45;
+    background-size:contain;
+}
+#menu-works5{
+    background-color: #7F9916;
+    background-size:contain;
+}
+
+/* プロフィール */
+
+#profile{
+    width: auto;
+    margin: 0;
+}
+.profile-head{
+    height: 150vh;
+}
+
+.profile-image-wrap{
+    position: relative;
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+.profile-image{
+    width:auto;
+    height: auto;
+}
+.profile-title{
+    position: absolute;
+    width:100%;
+    text-align: center;
+    margin: auto;
+    top: 60%;
+    font-size: 4vh;
+    color: #D8B6C6;
+}
+
+.profile-contents{
+    display: flex;
+    width: 50%;
+    height: 150vh;
+    margin: auto;
+    justify-content:space-between;
+}
+
+#icon{
+    width: 30%;
+    height:fit-content;
+    margin: 0;
+}
+#profile-text{
+    width: 60%;
+    height: fit-content;
+    margin-top: 5%;
+    color: #FFFFFF;
+}
+#name{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 7vh;
+}
+#about{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5vh;
+}
+
+/* 作品 */
+#works{
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.works-head{
+    height: 150vh;
+    scroll-snap-align:center;
+}
+
+.works-image-wrap{
+    position: relative;
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.works-title-image{
+    width:auto;
+    height: auto;
+}
+
+.works-title{
+    position: absolute;
+    width:100%;
+    text-align: center;
+    top: 60%;
+    font-size: 4vh;
+    color: #D8B6C6;
+}
+
+.works-list-item{
+    background-image: url(images/circle.svg);
+    background-repeat: no-repeat;
+    background-position: -80% center ;
+    background-size: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200vh;
+}
+
+.works-image-area{
+    width: 40vw;
+    height: 40vw;
+    margin: auto 0;
+}
+.works-image-box{
+    width: 40vw;
+    height: 40vw;
+    overflow: auto;
+    margin: auto 0;
+}
+
+.works-image{
+    width:100%;
+    height: auto;
+}
+
+.works-description-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30vw;
+    height: 20%;
+    margin: auto 0;
+}
+
+.works-description-title{
+    color: #FFFFFF;
+    font-size: 2.5vw;
+}
+.works-description{
+    color: #FFFFFF;
+    font-size: 2vw;
+}
+
+.link{
+    color: #FFFFFF;
+    font-size: 2vw;
+    width: auto;
+    text-align:end;
+    vertical-align: middle;
+}
+.link-image{
+    width: 4vw;
+}
